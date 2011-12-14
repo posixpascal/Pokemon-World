@@ -1,0 +1,7 @@
+#syntax: <triggername> <posx>.<posy> <trigger.params>
+#You can build your own triggers using the python code in ./examples/trigger.py
+
+sign 7.10 alabastia_welcome.txt
+door 5.5 map_2 1.4
+map_ch 10.-1 route_1
+map_ch 11.-1 route_1

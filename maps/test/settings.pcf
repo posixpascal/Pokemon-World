@@ -1,0 +1,4 @@
+start_pos 5.6
+on_die 6.5
+wild_pkm_rate 5
+wild_pkm 10,11,12,13,15

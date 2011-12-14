@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>Pascal Raszyk</author>
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>271</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Umwelt</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton__35">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/block_black.jpg</normaloff>../../sprites/map/block_black.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__1">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/grass.jpg</normaloff>../../sprites/map/grass.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/grass_flower_left.jpg</normaloff>../../sprites/map/grass_flower_left.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__5">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/grass_wild.jpg</normaloff>../../sprites/map/grass_wild.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__15">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/grass_full.jpg</normaloff>../../sprites/map/grass_full.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__14">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/grass_step.jpg</normaloff>../../sprites/map/grass_step.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/grass_flower_right.jpg</normaloff>../../sprites/map/grass_flower_right.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__37">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stock_1.jpg</normaloff>../../sprites/map/stock_1.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__38">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stock_2.jpg</normaloff>../../sprites/map/stock_2.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__39">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stock_3.jpg</normaloff>../../sprites/map/stock_3.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__41">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stock_5.jpg</normaloff>../../sprites/map/stock_5.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__40">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stock_4.jpg</normaloff>../../sprites/map/stock_4.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__13">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>130</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/water_right.jpg</normaloff>../../sprites/map/water_right.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__42">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stock_6.jpg</normaloff>../../sprites/map/stock_6.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__9">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>100</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/water_edge_left.jpg</normaloff>../../sprites/map/water_edge_left.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/water_edge_top.jpg</normaloff>../../sprites/map/water_edge_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__10">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>100</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/water_edge_right.jpg</normaloff>../../sprites/map/water_edge_right.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__65">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>160</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/flower_bottom.jpg</normaloff>../../sprites/map/flower_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__8">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/water_middle.jpg</normaloff>../../sprites/map/water_middle.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__7">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>160</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/fence.jpg</normaloff>../../sprites/map/fence.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__64">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>160</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/flower_top.jpg</normaloff>../../sprites/map/flower_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__12">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/water_left.jpg</normaloff>../../sprites/map/water_left.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__36">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stock_stair.jpg</normaloff>../../sprites/map/stock_stair.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/sign.jpg</normaloff>../../sprites/map/sign.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/block_white.jpg</normaloff>../../sprites/map/block_white.jpg</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Gebäude</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton__81">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/computer_bottom.jpg</normaloff>../../sprites/map/computer_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__33">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/big_house_windows.jpg</normaloff>../../sprites/map/big_house_windows.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__67">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/bed_top.jpg</normaloff>../../sprites/map/bed_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__62">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>100</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/carpet_bottom_vert.jpg</normaloff>../../sprites/map/carpet_bottom_vert.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__26">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/big_house_roof_left_bottom.jpg</normaloff>../../sprites/map/big_house_roof_left_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__66">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/bed_bottom.jpg</normaloff>../../sprites/map/bed_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__82">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/computer_top.jpg</normaloff>../../sprites/map/computer_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__31">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/big_house_roof_right_top.jpg</normaloff>../../sprites/map/big_house_roof_right_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__73">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/bookshelf_black_bottom.jpg</normaloff>../../sprites/map/bookshelf_black_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__27">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/big_house_roof_top.jpg</normaloff>../../sprites/map/big_house_roof_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__29">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/big_house_roof_left_top.jpg</normaloff>../../sprites/map/big_house_roof_left_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__84">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/bookshelf_white_top.jpg</normaloff>../../sprites/map/bookshelf_white_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__74">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/bookshelf_black_top.jpg</normaloff>../../sprites/map/bookshelf_black_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__61">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/carpet_top_vert.jpg</normaloff>../../sprites/map/carpet_top_vert.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__28">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/big_house_roof_bottom.jpg</normaloff>../../sprites/map/big_house_roof_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__32">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/big_house_roof_right_bottom.jpg</normaloff>../../sprites/map/big_house_roof_right_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_door.jpg</normaloff>../../sprites/map/house_door.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__20">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>160</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_right_bottom.jpg</normaloff>../../sprites/map/house_right_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_roof_left_top.jpg</normaloff>../../sprites/map/house_roof_left_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__75">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>100</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/carpet_hort.jpg</normaloff>../../sprites/map/carpet_hort.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__83">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/bookshelf_white_bottom.jpg</normaloff>../../sprites/map/bookshelf_white_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__18">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>160</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_roof_left_bottom.jpg</normaloff>../../sprites/map/house_roof_left_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__80">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>130</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_chair.jpg</normaloff>../../sprites/map/house_chair.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__34">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/big_house_right_bottom.jpg</normaloff>../../sprites/map/big_house_right_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__19">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>160</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_left_bottom.jpg</normaloff>../../sprites/map/house_left_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__25">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>220</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_window_left.jpg</normaloff>../../sprites/map/house_window_left.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__71">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>250</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/table_left_bottom.jpg</normaloff>../../sprites/map/table_left_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__77">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>280</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/wall_poster.jpg</normaloff>../../sprites/map/wall_poster.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__72">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>280</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/tv.jpg</normaloff>../../sprites/map/tv.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__76">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>280</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/wall.jpg</normaloff>../../sprites/map/wall.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__24">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>190</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_roof_top.jpg</normaloff>../../sprites/map/house_roof_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__59">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stair_up.jpg</normaloff>../../sprites/map/stair_up.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__68">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>220</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/nes.jpg</normaloff>../../sprites/map/nes.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__63">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>190</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_tile.jpg</normaloff>../../sprites/map/house_tile.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__69">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>190</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_tile_2.jpg</normaloff>../../sprites/map/house_tile_2.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__21">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_window.jpg</normaloff>../../sprites/map/house_window.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__70">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>250</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/table_right_bottom.jpg</normaloff>../../sprites/map/table_right_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__85">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/table_right_top.jpg</normaloff>../../sprites/map/table_right_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__60">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>220</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/stair_down.jpg</normaloff>../../sprites/map/stair_down.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__86">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>250</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/table_left_top.jpg</normaloff>../../sprites/map/table_left_top.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__79">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/wall_window_closed.jpg</normaloff>../../sprites/map/wall_window_closed.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__78">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>310</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/wall_window_open.jpg</normaloff>../../sprites/map/wall_window_open.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__22">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>310</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_roof_right_bottom.jpg</normaloff>../../sprites/map/house_roof_right_bottom.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__23">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>310</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../sprites/map/house_roof_right_top.jpg</normaloff>../../sprites/map/house_roof_right_top.jpg</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Höhlen</string>
+    </attribute>
+    <widget class="QLabel" name="label_401">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>241</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Keine passenden Map-Elemente gefunden</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Speziell</string>
+    </attribute>
+    <widget class="QLabel" name="label_402">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>241</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Keine passenden Map-Elemente gefunden</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_407">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Aktuelles Element:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_408">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>400</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../sprites/map/bed_bottom.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>420</y>
+     <width>801</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_156">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>380</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Next &gt;&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_409">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>430</y>
+     <width>621</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Klicke auf einen Button um ein Element auszuwählen. Danach klicke auf eine Stelle im rechten Bereich um das Element zu setzen.</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>10</y>
+     <width>16</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_410">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Pokemon World&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;  MapCreator&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_157">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>50</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Clear Map</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_158">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>90</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Load Map</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>40</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(sprites/map/PCPokemon/sprites/map/block_black.jpg);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../resources.qrc"/>
+  <include location="../../../resources.qrc"/>
+  <include location="../../../resources.qrc"/>
+ </resources>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>false</bool>
+  </property>
+ </designerdata>
+</ui>

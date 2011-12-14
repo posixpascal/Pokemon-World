@@ -1,0 +1,6 @@
+#syntax: <triggername> <posx>.<posy> <trigger.params>
+#You can build your own triggers using the python code in ./examples/trigger.py
+
+door 9.8 alabastia
+map_ch 10.-1 route_1
+map_ch 11.-1 route_1
